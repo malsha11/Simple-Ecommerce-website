@@ -1,0 +1,53 @@
+/* Custom CSS */
+
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 0;
+  }
+
+  .custom-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #007bff;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  .custom-range::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background-color: #007bff;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  .c-item {
+    height: 480px;
+  }
+  .c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+  }
+  .border1 {
+    border: #fff;
+  }
+  .slidebar_items {
+    border: #fff;
+  }
+
+  footer {
+    background-color: #b32929;
+    color: #181515;
+    padding: 20px;
+    text-align: center;
+    
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
